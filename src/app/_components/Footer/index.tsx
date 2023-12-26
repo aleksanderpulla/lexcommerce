@@ -21,7 +21,7 @@ export async function Footer() {
 
   return (
     <>
-      q <FooterComponent footer={footer} />
+      <FooterComponent footer={footer} />
     </>
   )
 }

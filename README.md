@@ -5,8 +5,6 @@ Welcome to Tech Haven, your ultimate destination for all things tech! Our ecomme
 ![thumbnail](/public/assets/images/thumbnail.png)
 
 ## Table of Contents
-- [Tech Haven.](#tech-haven)
-  - [Table of Contents](#table-of-contents)
   - [Quick Start](#quick-start)
   - [How it works](#how-it-works)
     - [Collections](#collections)

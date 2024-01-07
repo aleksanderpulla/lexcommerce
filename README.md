@@ -1,50 +1,37 @@
-# Payload E-Commerce Template
+# Tech Haven.
 
-This is the official [Payload E-Commerce Template](https://github.com/payloadcms/payload/blob/main/templates/ecommerce). Use it to power e-commerce businesses and online stores of all sizes. This repo includes a fully-working backend, enterprise-grade admin panel, and a beautifully designed, production-ready website.
+Welcome to Tech Haven, your ultimate destination for all things tech! Our ecommerce platform is designed to provide a seamless and enjoyable shopping experience for tech enthusiasts and gadget lovers. Whether you're in search of the latest smartphones, cutting-edge laptops, or innovative smart home devices, Tech Haven has got you covered.
 
-This template is right for you if you are selling:
+![thumbnail](/public/assets/images/thumbnail.png)
 
-- Physical products like clothing or merchandise
-- Digital assets like ebooks or videos
-- Access to content like courses or premium articles
-
-Core features:
-
-- [Pre-configured Payload Config](#how-it-works)
-- [Authentication](#users-authentication)
-- [Access Control](#access-control)
-- [Shopping Cart](#shopping-cart)
-- [Checkout](#checkout)
-- [Paywall](#paywall)
-- [Layout Builder](#layout-builder)
-- [SEO](#seo)
-- [Website](#website)
+## Table of Contents
+- [Tech Haven.](#tech-haven)
+  - [Table of Contents](#table-of-contents)
+  - [Quick Start](#quick-start)
+  - [How it works](#how-it-works)
+    - [Collections](#collections)
+    - [Globals](#globals)
+  - [Access control](#access-control)
+  - [Shopping cart](#shopping-cart)
+  - [Stripe](#stripe)
+    - [Connect Stripe](#connect-stripe)
+  - [Checkout](#checkout)
+  - [Paywall](#paywall)
+  - [Layout Builder](#layout-builder)
+  - [Draft Preview](#draft-preview)
+  - [SEO](#seo)
+  - [Redirects](#redirects)
+  - [Website](#website)
+    - [Cache](#cache)
+    - [Eject](#eject)
+  - [Development](#development)
+    - [Docker](#docker)
+    - [Seed](#seed)
+  - [Production](#production)
+    - [Deployment](#deployment)
+  - [Questions](#questions)
 
 ## Quick Start
-
-To spin up this example locally, follow these steps:
-
-### Clone
-
-If you have not done so already, you need to have standalone copy of this repo on your machine. If you've already cloned this repo, skip to [Development](#development).
-
-#### Method 1 (recommended)
-
-  Go to Payload Cloud and [clone this template](https://payloadcms.com/new/clone/ecommerce). This will create a new repository on your GitHub account with this template's code which you can then clone to your own machine.
-
-#### Method 2
-
-  Use the `create-payload-app` CLI to clone this template directly to your machine:
-
-    npx create-payload-app@latest my-project -t ecommerce
-
-#### Method 3
-
-  Use the `git` CLI to clone this template directly to your machine:
-
-    git clone -n --depth=1 --filter=tree:0 https://github.com/payloadcms/payload my-project && cd my-project && git sparse-checkout set --no-cone templates/ecommerce && git checkout && rm -rf .git && git init && git add . && git mv -f templates/ecommerce/{.,}* . && git add . && git commit -m "Initial commit"
-
-### Development
 
 1. First [clone the repo](#clone) if you have not done so already
 1. `cd my-project && cp .env.example .env` to copy the example environment variables
@@ -318,4 +305,4 @@ The easiest way to deploy your project is to use [Payload Cloud](https://payload
 
 ## Questions
 
-If you have any issues or questions, reach out to us on [Discord](https://discord.com/invite/payload) or start a [GitHub discussion](https://github.com/payloadcms/payload/discussions).
+If you have any issues or questions, reach out to Payload team on [Discord](https://discord.com/invite/payload) or start a [GitHub discussion](https://github.com/payloadcms/payload/discussions).
